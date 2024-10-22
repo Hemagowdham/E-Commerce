@@ -18,7 +18,7 @@ export default function ProductCard({product}) {
                             <div class="rating-inner" style={{width : `${product.ratings/5* 100}%`}}></div>
                         </div>
                     </div>
-                    <p class="card-text">{product.price}</p>
+                    <p class="card-text">$ {product.price}</p>
                     <Link to={"/product/"+product._id} id="view_btn" className="btn btn-block">View Details</Link>
                 </div>
             </div>
