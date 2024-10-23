@@ -16,6 +16,7 @@ export default function Home() {
     },[searchParams]);
 
     return (
+        products.length?
         <Fragment>
             <h1 id="products_heading">Latest Products</h1>
 
@@ -24,6 +25,9 @@ export default function Home() {
             {products.map((product)=> <ProductCard product={product}/>)}
             </div>
             </section>
+        </Fragment>:
+        <Fragment>
+            <img src='/images/no-product.png' height={400} width={500} />
         </Fragment>
     );
 }
