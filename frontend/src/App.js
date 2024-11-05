@@ -1,12 +1,12 @@
 import './App.css';
-import Header from './components/Header';
-import Home from './pages/Home';
-import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ProductDetails from './pages/ProductDetails';
 import React, { useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 
 function App() {
