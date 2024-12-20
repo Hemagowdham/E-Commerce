@@ -1,6 +1,6 @@
-**spend-O-cart**, E-Commerce website - Full-stack Web application (MERN)
+**Spend-O-cart**, E-Commerce - Full-stack Web application (MERN)
 
-- Developed a E-Commerce website using React for user interface, node.js/express for request and response handling and MongoDB for database connection. 
+- Developed a E-Commerce web application using React for user interface, node.js/express for request and response handling and MongoDB for database connection. 
 
 - Used user interface templates, then translated these into functional components using React, JSX.
 
